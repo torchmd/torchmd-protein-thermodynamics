@@ -1,0 +1,48 @@
+PSF NAMD
+
+       0 !NTITLE
+
+      10 !NATOM
+         2 A        1        TYR      CA       CAY      0.000000        0.0000           0 
+        11 A        2        TYR      CA       CAY      0.000000        0.0000           0 
+        32 A        3        ASP      CA       CAD      0.000000        0.0000           0 
+        44 A        4        PRO      CA       CAP      0.000000        0.0000           0 
+        58 A        5        GLU      CA       CAE      0.000000        0.0000           0 
+        73 A        6        THR      CA       CAT      0.000000        0.0000           0 
+        87 A        7        GLY      CA       CAG      0.000000        0.0000           0 
+        94 A        8        THR      CA       CAT      0.000000        0.0000           0 
+       108 A        9        TRP      CA       CAW      0.000000        0.0000           0 
+       132 A        10       TYR      CA       CAY      0.000000        0.0000           0 
+
+
+
+         9 !NBOND: bonds
+         1         2         2         3         3         4         4         5
+         5         6         6         7         7         8         8         9
+         9        10
+
+
+         0 !NTHETA: angles
+
+
+
+         7 !NPHI: dihedrals
+         1         2         3         4         2         3         4         5
+         3         4         5         6         4         5         6         7
+         5         6         7         8         6         7         8         9
+         7         8         9        10
+
+
+         0 !NIMPHI: impropers
+
+
+
+         0 !NDON: donors
+
+         0 !NACC: acceptors
+
+         0 !NNB
+
+
+         0          0 !NGRP
+
