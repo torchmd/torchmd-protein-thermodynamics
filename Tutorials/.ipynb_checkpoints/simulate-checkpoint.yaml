@@ -1,0 +1,25 @@
+forcefield: prior_force_field.yaml
+forceterms:
+- Bonds
+- RepulsionCG
+- Dihedrals
+exclusions: ('bonds')
+langevin_gamma: 1
+langevin_temperature: 350
+log_dir: cln_32trajs_350_ts1
+output: output
+output_period: 100
+precision: double
+replicas: 32
+rfa: false
+save_period: 1000
+seed: 1
+steps: 5000000
+topology: topology/cln.psf
+coordinates: starting_xtc/cln_kcenters_32clusters_coords.xtc
+temperature: 350
+timestep: 1
+external:
+  module: torchmdnet.calculators
+  embeddings: [4, 4, 5, 8, 6, 13, 2, 13, 7, 4]
+  file: Models/cln/model.ckpt
