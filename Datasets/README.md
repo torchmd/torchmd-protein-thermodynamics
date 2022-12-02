@@ -23,7 +23,7 @@ In these tables you'll be able to find all the data necessary to reproduce the r
 
 Here you'll find all the files regarding the Markov state model analysis of the reference MD simulations above, used as a reference for the evaluation of the coarse-grained potentials.
 
-<http://pub.htmd.org/protein_thermodynamics_data/reference_MSM_analysis.tar.gz>>
+<http://pub.htmd.org/protein_thermodynamics_data/reference_MSM_analysis.tar.gz>
 
 ## Experimental structures
 
