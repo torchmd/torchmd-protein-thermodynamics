@@ -49,3 +49,9 @@ Here you can find all the training data used for all protein systems, containing
 | Protein G | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/proteing_ca_coords.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/proteing_ca_forces.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/proteing_ca_deltaforces.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/proteing_ca_embeddings.npy) |
 | a3D | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/a3d_ca_coords.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/a3d_ca_forces.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/a3d_ca_deltaforces.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/a3d_ca_embeddings.npy) |
 | Lambda-repressor | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/lambda_ca_coords.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/lambda_ca_forces.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/lambda_ca_deltaforces.npy) | [Link](pub.htmd.org/protein_thermodynamics_data/training_data/lambda_ca_embeddings.npy) |
+
+## Trained models
+
+Here are all the models we trained during our study, both the protein specific models for each protein and the general model.
+
+<http://pub.htmd.org/protein_thermodynamics_data/Models.zip>
