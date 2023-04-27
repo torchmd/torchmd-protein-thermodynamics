@@ -29,6 +29,10 @@ conda env create -f env.yml
 ```
 3. Follow the tutorials and documentation to learn how to use the code and resources
 
+## Citation
+
+Machine Learning Coarse-Grained Potentials of Protein Thermodynamics, https://doi.org/10.48550/arXiv.2212.07492
+
 ## License
 
 Note. All the code in this repository is MIT, however we use several file format readers that are taken from Moleculekit which has a free open source non-for-profit, research license. This is mainly in torchmd/run.py. Moleculekit is installed automatically being in the requirement file. Check out Moleculekit here: https://github.com/Acellera/moleculekit
