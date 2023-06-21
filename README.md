@@ -1,6 +1,6 @@
 # Machine Learning Coarse-Grained Potentials of Protein Thermodynamics
 
-This repository contains code, data and tutarial for reproducing the paper "Machine Learning Coarse-Grained Potentials of Protein Thermodynamics". 
+This repository contains code, data and tutarial for reproducing the paper "Machine Learning Coarse-Grained Potentials of Protein Thermodynamics". https://arxiv.org/abs/2212.07492
 
 ## Background
 
