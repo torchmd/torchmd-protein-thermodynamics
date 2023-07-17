@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/356331061.svg)](https://zenodo.org/badge/latestdoi/356331061)
+
 # Machine Learning Coarse-Grained Potentials of Protein Thermodynamics
 
 This repository contains code, data and tutarial for reproducing the paper "Machine Learning Coarse-Grained Potentials of Protein Thermodynamics". https://arxiv.org/abs/2212.07492
