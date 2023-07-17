@@ -1,4 +1,6 @@
+[![DOI](https://zenodo.org/badge/240026572.svg)](https://zenodo.org/badge/latestdoi/240026572)
 [![DOI](https://zenodo.org/badge/356331061.svg)](https://zenodo.org/badge/latestdoi/356331061)
+[![DOI](https://zenodo.org/badge/572873267.svg)](https://zenodo.org/badge/latestdoi/572873267)
 
 # Machine Learning Coarse-Grained Potentials of Protein Thermodynamics
 
