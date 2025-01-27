@@ -6,7 +6,16 @@ import numpy as np
 
 def computeWeights(model):
     stateconcat = np.concatenate(model.data.St)
-    eqdist_offrame = model.msm.stationary_distribution[model.micro_ofcluster[stateconcat]]
+
+    try:
+        _active_set = model.msm.count_model.state_symbols
+    except:
+        _active_set = model.msm.active_set
+    
+    micro_ofcluster = -np.ones(model.data.K, dtype=int)
+    micro_ofcluster[_active_set] = np.arange(len(_active_set))
+    
+    eqdist_offrame = model.msm.stationary_distribution[micro_ofcluster[stateconcat]]
     statprob = 1 / model.data.N
     frameweights = eqdist_offrame * statprob[stateconcat]
     return frameweights
